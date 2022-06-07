@@ -27,7 +27,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #719a0a;
+    color: #FF0000;
     outline: none;
     text-decoration: none;
 }
@@ -578,7 +578,7 @@ a:focus {
 .food .food-item i {
     position: relative;
     display: inline-block;
-    color: #FF0000;
+    color: #000000;
     font-size: 60px;
     line-height: 60px;
     margin-bottom: 20px;
@@ -586,7 +586,7 @@ a:focus {
 }
 
 .food .food-item:hover i {
-    color: #719a0a;
+    color: #FF0000;
 }
 
 .food .food-item i::after {
@@ -596,7 +596,7 @@ a:focus {
     height: calc(100% + 20px);
     top: -20px;
     left: -15px;
-    border: 3px dotted #FF0000;
+    border: 3px dotted #000000;
     border-right: transparent;
     border-bottom: transparent;
     border-radius: 100px;
@@ -604,7 +604,7 @@ a:focus {
 }
 
 .food .food-item:hover i::after {
-    border: 3px dotted #719a0a;
+    border: 3px dotted #FF0000;
     border-right: transparent;
     border-bottom: transparent;
 }
@@ -633,7 +633,7 @@ a:focus {
 .food .food-item a:hover::after {
     width: 100%;
     left: 0;
-    background: #719a0a;
+    background: #FF0000;
 }
 
 
@@ -1002,6 +1002,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 45px 0 15px 0;
+    background: rgba(0, 0, 0, .04);
 }
 
 .team .team-item {
@@ -1746,7 +1747,7 @@ a:focus {
     min-height: 150px;
     margin: 0 0 30px 0;
     padding: 30px 15px 0 15px;
-    background: rgba(0, 0, 0, .04);
+    background: rgba(206, 139, 139, 0.04);
 }
 
 .contact .contact-info {
@@ -1783,7 +1784,7 @@ a:focus {
 .contact .contact-text h3 {
     font-size: 18px;
     font-weight: 700;
-    color: #719a0a;
+    color: #000000;
 }
 
 .contact .contact-text p {
@@ -1799,7 +1800,7 @@ a:focus {
 }
 
 .contact .contact-social a:hover {
-    color: #719a0a;
+    color: #000000;
 }
 
 .contact .contact-form iframe {
@@ -1838,7 +1839,6 @@ a:focus {
     position: relative;
     margin-top: 45px;
     padding-top: 90px;
-    background: rgba(0, 0, 0, .04);
 }
 
 .footer .footer-contact,
@@ -1869,7 +1869,7 @@ a:focus {
     height: 2px;
     bottom: 0;
     left: 0;
-    background: #719a0a;
+    background: #000000;
 }
 
 .footer .footer-link a {
@@ -1919,7 +1919,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover {
-    background: #719a0a;
+    background: #000000;
 }
 
 .footer .footer-social a:last-child {
@@ -1967,5 +1967,5 @@ a:focus {
 }
 
 .footer .copyright p a:hover {
-    color: #719a0a;
+    color: #000000;
 }
