@@ -21,7 +21,7 @@
         }
     });
 
-    // Logo Cjange
+    // Logo Change
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
             $('#logo').attr('src', 'img/black.png');

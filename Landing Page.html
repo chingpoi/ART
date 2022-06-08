@@ -37,7 +37,7 @@
 
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto">
-                    <a href="#" class="nav-item nav-link ">Home</a>
+                    <a href="#" class="nav-item nav-link">Home</a>
                     <a href="#About" class="nav-item nav-link">About Us</a>
                     <a href="#Contact" class="nav-item nav-link">Contact Us</a>
                     <a href="#Features" class="nav-item nav-link">Features</a>
@@ -56,8 +56,32 @@
     <div class="carousel" id="Home">
 
         <div class="carousel-item">
-            <img id="logo" src="img/white.png" width="30%" alt="Image">
+            <div class="container">
+                <img class="side-logo" src="img/White.png" alt="Side Logo">
+                <div class="sign-in">
+                    SIGN IN
+                </div>
+                <div class="instructions">
+                    Sign in with your Email or Company ID
+                </div>
+
+                <div class="control-group email-form">
+                    <input type="text" class="form-control custom-form" id="Email/Company ID"
+                        placeholder="Email/Company ID" required="required"
+                        data-validation-required-message="Please enter your Email/Company ID" />
+                </div>
+
+                <div class="control-group password-form ">
+                    <input type="Password" class="form-control custom-form" id="Password" placeholder="Password"
+                        required="required" data-validation-required-message="Please enter your Password" />
+                </div>
+            </div>
+
+            <button class="btn custom-btn button" type="submit" id="sendMessageButton">Sign In</button>
+
         </div>
+
+    </div>
     </div>
     </div>
 
